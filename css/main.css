@@ -10,25 +10,41 @@ A simple CSS preset to enable box-sizing, set some text rendering options to dec
 - website: https://github.com/tomhodgins/preset
 */
 
-* {
-  box-sizing: border-box;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-kerning: auto;
+h1{
+    font-variant: small-caps;
+    font-size: 10vw;
 }
-
-html {
-  font-family: sans-serif;
-  -webkit-text-size-adjust: 100%;
-}
-
-body {
-  margin: 0;
+h2{
+    font-size: 2vw;
 }
 
 #head{
- background-color: #3a3a3a
- width: 100%;
- height: 30%;
+    background-color: #616161;
+    text-align: center;
+    color: #fff;
+}
+.content{
+    margin-top:1vw;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.nav-link{
+    padding: 0px 0px 0px 0.7em;
+}
+.button{
+    border-radius: 3px;
+    box-shadow: 0.75vw 0.75vw #9b9b9b;
+    background-color: #03a9f4;
+    color:#fff;
+    -moz-transition: box-shadow 0.1s ease-in;
+    -o-transition: box-shadow 0.1s ease-in;
+    transition: box-shadow 0.1s ease-in;
+    
+}
+.button:hover{
+    box-shadow: 1.5vw 1.5vw #d6d6d6;
+    background-color: #FFA000;
 }
