@@ -1,6 +1,7 @@
 h1{
+    font-family:sans-serif;
     font-variant: small-caps;
-    font-size: 5.5rem;
+    font-size: 5rem;
 }
 h3{
     font-size: 2rem;
@@ -24,4 +25,34 @@ ul{
         position: fixed;
         height: 100vh;
     }
+}
+@media (min-width: 768px){
+    .head{
+        min-height: 50vh;
+    }
+}
+.header-image{
+    max-height: 60%;
+    width:100%;
+}
+@media (min-width: 768px){
+    .hiv-image{
+        width:80%;
+        display: block;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 768px){
+    .hiv-image{
+        width:100%;
+    }
+}
+section{
+    text-indent: 1em;
+}
+.section-title{
+    text-indent: 0;
+}
+#citations{
+    text-indent: -1em;
 }
